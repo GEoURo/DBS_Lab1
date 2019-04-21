@@ -1,0 +1,15 @@
+create or replace trigger set_status
+  after insert or update
+  on borrow 
+  for each row
+
+begin
+  if :new.return_date is NULL then
+    update book set status = 1
+    where id = :new.book_id;
+  else
+     update book set status = 0
+     where id = :new.book_id;
+  end if;
+end;
+/

@@ -1,0 +1,7 @@
+create or replace procedure change_bid(old_id in char, new_id in char) 
+is
+begin
+  update book set id = new_id where id = old_id;
+  update borrow set book_id = new_id where book_id = old_id;
+end change_bid;
+/

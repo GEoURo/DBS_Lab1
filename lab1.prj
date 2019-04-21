@@ -1,0 +1,36 @@
+PL/SQL Developer Project
+
+[Options]
+AutoConnect=-1
+Username=system
+Password=22384256506640203934391239383564371835843722
+Database=ORCL
+ConnectAs=Normal
+Edition=
+Workspace=
+HaltAfterError=0
+BrowseHistory=0
+FileBrowser=0
+BeautfierRulesFile=
+ShowItems=0
+
+[History]
+Programs=
+SQL Scripts=
+Report Files=
+Test Scripts=
+Command Scripts=
+Diagram Files=
+
+[BrowserFolders]
+
+
+[Groups]
+
+[Files]
+1,0,,,D:\lab01.sql
+
+[Notes]
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil Arial;}}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\lang2052\f0\fs20\par
+}
