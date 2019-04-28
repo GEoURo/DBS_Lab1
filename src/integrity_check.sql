@@ -9,6 +9,3 @@ values('0000111', NULL, 'Billy Van', 90, 0);
 
 insert into book
 values('0000110', 'Operating system', NULL, 100, 0);
-
-
-

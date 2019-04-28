@@ -2,7 +2,6 @@ drop table borrow;
 drop table book;
 drop table reader;
 
-
 create table book(
        ID     char(8) constraint book_PK Primary Key,
        name   varchar2(10) not null,
